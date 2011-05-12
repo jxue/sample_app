@@ -1,0 +1,17 @@
+# ~.autotest
+require 'autotest_notification'
+SPEAKING = false
+DOOM_EDITION = false
+BUUF = false
+PENDING = false
+STICKY = false
+SUCCESS_SOUND = ''
+FAILURE_SOUND = ''
+
+require 'autotest/growl'
+# Autotest::Growl::show_modified_files = true
+Autotest::Growl::one_notification_per_run = false
+
+
+
+
